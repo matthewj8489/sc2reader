@@ -160,13 +160,14 @@ POST-Parse filtering vs preparse filtering?
 POST-Parse, how to do it?!?!?!?!
 '''
 import argparse
-import cPickle
+import pickle
 import os
 import shutil
 import sys
 import time
 
 import sc2reader
+from sc2reader.scripts import utils
 
 try:
     raw_input          # Python 2
